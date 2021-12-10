@@ -1,7 +1,7 @@
 public class OrderCore implements OrderCoreInterface {
 
-    private static long orderId;
-    private static String username;
+    private long orderId;
+    private String username;
 
     public OrderCore(long orderId, String username) {
         this.orderId = orderId;
